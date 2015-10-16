@@ -1,0 +1,14 @@
+{
+  "namespace": "araport",
+  "name": "erik-test-app",
+  "description": "test app",
+  "html": "app.html",
+  "scripts": [
+    "scripts/aip-helper.js",
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/main.css",
+    "styles/titles.css"
+  ]
+}
