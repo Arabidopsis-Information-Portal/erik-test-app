@@ -10,5 +10,8 @@
   "styles": [
     "styles/main.css",
     "styles/titles.css"
+  ],
+  "assets": [
+    "assets/araport.png"
   ]
 }

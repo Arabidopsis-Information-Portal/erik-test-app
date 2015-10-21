@@ -65,7 +65,7 @@ AIP = (function(window, $, aip){
     'use strict';
     aip._titleize = function(str){
         str = str.replace(/[\-_]/g, ' ');
-        return str.replace(/([^\W_]+[^\s-]*)*/g, 
+        return str.replace(/([^\W_]+[^\s-]*)*/g,
                            function(txt){
                                return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
                            });
@@ -115,10 +115,10 @@ AIP = (function(window, $, aip){
     };
     aip.error = function(err){
         if(console){
-            console.log("There was an error comunicating to Agave: ", err);
+            console.log('There was an error comunicating to Agave: ', err);
         }
     };
-    aip.getList = function(namespace, service, config){
+    aip.getList = function(namespace, service){
         var Agave = window.Agave;
         var params = {namespace: namespace, service: service};
         Agave.api.adama.list(params, aip.process, aip.error);
