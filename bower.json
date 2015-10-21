@@ -2,6 +2,8 @@
   "name": "erik-test-app",
   "private": true,
   "dependencies": {
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "datatables.net": "~1.10.9",
+    "datatables.net-bs": "~1.10.9"
   }
 }
